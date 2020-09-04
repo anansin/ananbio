@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<title>ANAND</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://lh3.googleusercontent.com/i3N9F--U_ULvod55soloMaT0SARMRtoX2FtdA5qI2uo4OiWjrjNUdTnjlyVKksWEiq_SR_ZiM1jQuTuh7Puy0p8yvTaWZEZvjj7_WaYhnL3Cufm67LvNIGteZk6xMNNyse_uCQCWgkkBpOEzhMl3st-JRtUaGsn4Od6hifRITSp5rM4Fz4DStOvYTfqBvfuZhJGK-1Ngei8LTlATEtvO_nVMH2n0bCdT8lMz-wHFnmB5GDHcW_M750644ac0ip84cQvy_OzAMZB0kapBiTHvN_G02pkehwMGaR8yjGKEsTG7SatahiKj6VEEIIdVQcOIrgb9hpGCWWznB74HaYO40HsSR-RDkWPvSEavF4FGtvo3Piu6UFEjpuHP3KGke8WL31XnPhCi4juqzJBYnHAtE6Ibl0bJ2vacJ37PFPIe1c8dXaBVux5UwXoNDPX1pU8HJDZJ0iV0ZPjmEJRXayk16cwKu4Bl777_RMPggQ1TZRm1b7sgBslJnVM-5_vjCaorKwiggQGSe4NqEO-lx9iW9f03tohdpTRXmj_RTJw25t7mJN973nniudiHPMRX1-TEDQym-5gRXCNiKxWrwV7PNOjQmeGd996O1hI-HhH4BH-olA02AoCf-ly1uMbmcQQb5Rfx7q5JgbmuoGWoM9OobgOs469PIEwTrzyamEumCYPCkpxedfJc7CFJFDhe=s540-no?authuser=0" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> ANAND SINGH</h1>
+    <p>Ethical Hacker and Web Designer.</p>
+    <img src="https://lh3.googleusercontent.com/N9fNsmsbyzzwSBk_FnINWuE0764cIJ6QFc06m-hgjFDgI6LxY39_6KUnL0WiS6kmiB5RJtFsYBwIK7kuXd2_oRO9SpY4c9ALd_yIuAWtQJecZA9prfqvO_cr_-FcwiyNN3Se4l8LdkGjfY-mkuHXCpP-_Fhn9rOdbZ7imsspYigCJwgMEi_IjwuGYO8oQoTwplXsFNuhFMK4E3nfU3Eu2mENF1BG5r2bBSbVQk3xGAmn1Ej1PBquRCaYA4s5c5E_mXB5VQemmVd2QD8vg2-fiBM9smVbZKDCaID9LcendwP4cLP3R2q6ZaF53AWKsqX-1pvmrzd37Dg9KHKi3VCYYRvW-IVe4wCtRmElHSA_8E04ze_nuJhSFi4MVldFXiY6tlnWWN7LF0dFKwpV0aEp9_bfy3eIjZ7nKdBQvCybA6wT-7RWHmkVXXeRPIwK9SgVsXVUtigPf06-0kb7SyPYgO39c9WJlf8GtvYi-tutaH246MhE-7rZ6PpmsWRyaUEBn7FN3_bKmLQcBD77aQGKGIR-mj8eUrfek2zJVPEM2ZWfifYnRwZNFMGc8a3jYoTTokqhP3jYC86VnrLtWFsxSHZfJEWHZeLfLFt3WEHdkJC8zokWfShq9jlCPFgDKobI8dCkXfhZh0Zb_YXLBNTV6HSSAiLhioV3SSCkJlAuuQa6bEdPDMryUFrScAbp=s587-no?authuser=0" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">WHO AM I</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> im a Ehical Hacker researcher and web designer  
+    </p>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Hacking</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Data scince</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+     <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    </div>
+    
+    <!-- Testimonials -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://lh3.googleusercontent.com/K7ZANtiyx7tb4PpAGhGGXIZu7C6OAxRJcmq_YAFVNmzV9gRLShek-0jjavP2RXnL4YcGC1-Tljnkmu-a4yeTTi_8JLJXhodYIExTXQg18p_ooJvWXckO4o5lUCTXsk5cWxAfSkxdF1FIGXfGJ8w6pGlo_Kv1UzMkw4rQB_vUniP-fC-DA1zerPk_yF4i8csG7AjVvkGtkYeuYxqusmGiCvopyI-rqXi0SA8GbYXMkUPAiVbNSJKCbMzWiYV5DUhe-l8XHgPfrC9BqyFe05Uexl2kJukL3f-1zvqEyBqAajuhYn1SzMDCgj1eP-MuowOdNCmtKI9xYF-ti_sK4KRV0nukcSCq9YZbDsn9U6XUmqyn_fOuWjSoVfuTWBdnsbpAwuGxhR4cz8CLz0CCtDr95CmVjEECQ4i0e5t9c9-LrE_Pu10uPRMMKsvBz4y1i6egTFJqUZ914TUvLRnM1M20TCOB3tOW_1qHVKfLngvcgImG0O4b8-fPwUCgdEl6x8ZMNeem86cOvVml-dhq2MfQ7eIn3TIWbNgod41X4AItFJWz9f4nX8xsGTPq0FhLEW9rWv7NxQg3FolrD5WSXV9rhF89VWpXtQU2hYFwYMHcpdPJ4BmvvyBBGXbaNTgBwNZfNyYL2B_yXpWDExC_8_8IHDxDL9kty-xosM6Ugfb_W18rSs63VuFSadq1KuOz=s587-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/f7Mt4YEsGlw9T1PJiWquk-8SEcaKdn7-hhTdx2ER4ho9C1GFFqIcDQZCKzEehcWV1AFdRJPxhCjIkLJqiT2s5kKFOsD5TC6uTamiaImT_L5dpV7bCFXa_Ul-nlueXlzDY7N7T6jHd9dREMlF6lzJ62311HQAQwOkmfkTst9QAxD8Sh0FH1h2SH313OgO5ts4MF_KDRS528u6qGBw8KKyKPQjW2IY2NrscSQ3N1cXZxouDJzflu18HmVoChS9O-VZrPJ016dZ1q0v_ptzgN0d291F25WB18fRveIcotyKleT-R-7SA0Q2qeutY5t1jKVSpBg-5H2qXdS6VFfKtM7pLaHtihjUAN9npLHoqswalmcDPAKcISLRP315I601s4X1TyaIUla5s2UDQy7l-NbQL2Z89_pjq_qgaGPDlIuuckodsCcOu2IWQHvhGuLx_qp9ljG3DVio3I-ohyKKq3HEkiXxdSgWMj2AZhJNu8_-SoJJ7tAgIu30EhBLKxbBt-xBo0tj8a1svtzgF5pVlTJ2ZpKpqWPpxhm2eixee2llAGwtYosZ5Pf6hV06Qgacb2Dw2YxaZ_pv_Kh3fIPgVmaQS_gDEeQH9SvKsGP_JSj2f_06S3vqfkE5M4hgiz1zc5YW9S6o_nEjaMBOZmYWn5li7hmju1MMWghT6I34uLXbqrHrKrvG7O4avxQagMfr=s587-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/S0bpMRfp03YiJk2yAFFtUNcebV1vrlXvF31NgW_2t7pwkwDHTk5eBbbH_opEfLSJo53Mtor5hsjOBlR895beZ5TPqBMon959TmUz1qf4gLpX3kXQpmj1c98Aqs7qShPM2v7NDJfl35NgMP6MJRqAa-PTpO5ge7b-TaKsHKIpQHuwV4zNjYqbfF60K3Fu4_UbqEA6BZUJdCSW3WFJAWMaPpc6d3dFQUVuQqU7B79KAnEehBqiWKAn2Bnbx0Wvcy4nd6Bcm4zYU8iXD0z56Kyin3VTmaEKVPiEx20WSiabg3_MQRg1PdLRqBZspV7eZJ-A1oM9FZn2w-xO8lzaKyAhzS8jBj6VAVj1IS8LujyelItAjH92LMXlIVtXylErntEvNUJTq7LKOMMvEWX-riQvnqhfiGrBzpcyjjF57nEMMAt2lUWbSdluKR0E1COqo-rz8GFEBBQCq7rDNdICyyOELiIypk98b1e7fEZd3Zzy0T46lH28YHkzT6Q-6_H-FFJODwvL4HJLEZkfHZbZ87Vo50WjOezQX7upR-z4KBqckSTtmf-oSVO5rlMBPHjdPdIR01wjHmDQ1RvHtCOomuIUQFd3vtfpvDYpwy0f_e4FWz1dY4vB_AflV1U1TrpudtSz1lUjqulguDzDGRCgldOa-VbRZXW6502juJzayeyE_z4D6XnaiOfwOJeBTBWQ=s587-no?authuser=0" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://lh3.googleusercontent.com/XXREC0CWluQOWHqaJtNzubdwlaqWsizOes7osHGirxiDcQMlqC--JvpAfJ18_C0hdYF_zRrlsn63I5lpoOq81JNK5rCVhr4BfRzi3aCOJ-6PwSembKkuAXxeP683j-xvs0z5iLtI_sq8ogmXqf72AdG5HpPdMX-vpzT4LB5SF1n_8xk4gryOA-lhOxzgAdWh57K1VjU15T6_ArVqYk7zLUFtpBfbsSotRIwkY0ztTdlCcYkQx_x-4PEmM9w1jIK8KnFq0jsVMtIWPI4a92boh3fjH3NhLEtsXl63PkcJ4C6cwRRG2gxT0EhpCUP-rZvhWhLgZl4w8X-cE4kBnEAaZqllfntxrI7_yp8KuufmULPxj-R1-EpTgeugH8ngxZ-tNUtKzNldi-UppRQYfDCGEY6s7zIeiP199Em2Fc8XtWVgW9ofS4cEgEyvTO_-wnxpDW3bbIMRudA9eYRBY3nkL57TdX0Ta50puwhd_4mcjPvKriCRkkK6-8Uu97ZiKHcsP2YeciJAc20w_H-YQ0Oy-86cDMP1Zv3QC175f3jYMQRH4No2IZW70rIOgL0B9JRfGe5V25rGK1gqqKTq0IYu7XfwmiZF03Rtt8xs-68IsPHrT_TrGFvjZyAt2Ze4eCn2_SBsmnix8V6Tu-HDNaSh-i5ns_GMPpJgJsLWxC6dlIAmR5ReNOjdXzj38i5f=w643-h587-no?authuser=0" style="width:100%">
+        <img src="" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/u1UJrd-O8q7s-Hzijy5pjLYEZdo99mLK-WSlTxPxL_qJrXgQIaXH63mECdT-7tnxIMBoZjnEPbeM9siKjorYxpNx6NDWcoYH534SglLQfwgN6FGDUXtiEN-A0QXD4_Op8LKQVgjekevW5KnuWXneTuxId67Y5-SU4K8W35ODFysZSlnCYx29EzeurXA3WucKJeGvWz-hOXvBjE57WmLiZdCzI2h7PeH3x4AYDiJSUPMuIReQ4bGQcorgQObUGGHYt39ahpnquFPA4aIsYo_pgbhhaMXQ_bOBjGJBPejYoTE-PFoflCyeW-vzg_8VJdIYZsztWxMNKC1vb23fstHVcp0iuZstX6BUnzVp_CaK9Aylr2Cm8gbcWiKRNVDHRkwn1Fez90qLxzDMEq_WKhoq2b-9FjdZi8U0JKPQ-Xc7-0UwbiTgUZ53hr0z1WJHb9rKov0Wyid0FGOzrlfOes4qAPbcD3vHD-ol76WKp9XGSXDSiwi35NdCpBYbYrZj2QLusDG-xdaZgRdI8gXFfrgJlXZsdUxOHpWeXI95dlFUkeeIInoa1Nvs8Eyox78Agd65Rv6zkOWoDkV4QhCtbtB0KGT5rIvaF82eFwPf5PPO2clV3Dh-vNLV1sfEUcYwcqfKu0jhdwIzPrWo0Adoexnp0UflhqSmJ4tA2-ref5JztLftJGxnd0LqIOx9D-Ss=w392-h587-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/i3N9F--U_ULvod55soloMaT0SARMRtoX2FtdA5qI2uo4OiWjrjNUdTnjlyVKksWEiq_SR_ZiM1jQuTuh7Puy0p8yvTaWZEZvjj7_WaYhnL3Cufm67LvNIGteZk6xMNNyse_uCQCWgkkBpOEzhMl3st-JRtUaGsn4Od6hifRITSp5rM4Fz4DStOvYTfqBvfuZhJGK-1Ngei8LTlATEtvO_nVMH2n0bCdT8lMz-wHFnmB5GDHcW_M750644ac0ip84cQvy_OzAMZB0kapBiTHvN_G02pkehwMGaR8yjGKEsTG7SatahiKj6VEEIIdVQcOIrgb9hpGCWWznB74HaYO40HsSR-RDkWPvSEavF4FGtvo3Piu6UFEjpuHP3KGke8WL31XnPhCi4juqzJBYnHAtE6Ibl0bJ2vacJ37PFPIe1c8dXaBVux5UwXoNDPX1pU8HJDZJ0iV0ZPjmEJRXayk16cwKu4Bl777_RMPggQ1TZRm1b7sgBslJnVM-5_vjCaorKwiggQGSe4NqEO-lx9iW9f03tohdpTRXmj_RTJw25t7mJN973nniudiHPMRX1-TEDQym-5gRXCNiKxWrwV7PNOjQmeGd996O1hI-HhH4BH-olA02AoCf-ly1uMbmcQQb5Rfx7q5JgbmuoGWoM9OobgOs469PIEwTrzyamEumCYPCkpxedfJc7CFJFDhe=s540-no?authuser=0" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Nepal Bajhang </p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +9779860169314</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: anandsinghthakuri5@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">create  by <br/><a href="https://0zzqufldwz5vz22sqnlbow-on.drv.tw/www.anandhire.cf/cv.html" target="_blank" class="w3-hover-text-green">anand singh</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
+
